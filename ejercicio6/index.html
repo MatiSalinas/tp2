@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio 6 LAB III</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <form id="formulario">
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre" maxlength="50" minlength="1">
+        <label for="apellido">Apellido</label>
+        <input type="text" name="apellido" id="apellido" maxlength="50" minlength="1">
+        <label for="edad">Edad</label>
+        <input type="number" name="edad" id="edad" min="0">
+        <label for="altura">Altura(cm)</label>
+        <input type="number" name="altura" id="altura" min="0" max="230">
+        <label for="correo">correo</label>
+        <input type="email" name="correo" id="correo" min="0">
+        <button type="submit">Enviar</button>
+    </form>
+    <p id="mensaje"></p>
+</body>
+</html>
