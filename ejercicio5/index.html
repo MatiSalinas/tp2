@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 5 LAB III</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <img src="./assets/images/Forma.PNG" alt="Forma del terreno" width="300px">
+        <form id="formulario">
+            <label for="ladoA">Figura Lado A</label>
+            <input type="number" step="any" min="1" name="ladoA">
+            <label for="ladoB">Figura Lado B</label>
+            <input type="number" min="1" step="any" name="ladoB">
+            <label for="ladoC">Figura Lado C</label>
+            <input type="number" step="any" name="ladoC" min="1" >
+
+            <button type="submit">Calcular</button>
+        </form>
+        <h2 id="resultado">El area de la figura es: </h2>
+    </div>
+</body>
+</html>
