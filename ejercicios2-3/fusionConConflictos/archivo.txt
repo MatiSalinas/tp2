@@ -4,9 +4,18 @@ linea3
 linea4 nueva
 
 
+<<<<<<< HEAD
 
 
 
 linea 10 y otras mas modificadas rama1
 
 iiiiiiiiiiiiiiiiiiiiiiiiiiiii
+=======
+linea 7 en main
+
+
+
+
+linea12 main
+>>>>>>> main
